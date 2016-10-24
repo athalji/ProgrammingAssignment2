@@ -1,7 +1,7 @@
 ## First function sets and gets the value of a matrix and it's inverse
-## Second function computes the inverse in case it was not cahed earlier and retrieves it in case it was computed before
+## Second function computes the inverse in case it was not cached earlier, and retrieves it in case it was computed before
 
-## Take matrix and create a list 
+## Take matrix and create a list for the matrix and it's inverse in case it gets computed
 
 makeCacheMatrix <- function(x = matrix()) {
   inve <- NULL
